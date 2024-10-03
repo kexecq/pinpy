@@ -17,7 +17,6 @@
 from colorama import Fore
 from grab_id import grab_board_id
 from download import download
-from os import chdir
 
 """
 -   src/pinpy.py

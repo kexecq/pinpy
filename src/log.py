@@ -6,9 +6,6 @@ from colorama import Fore
 -   Date: 30/09/2024
 """
 
-def log_warn(msg: str):
-    print(f"[pinpy]: {Fore.YELLOW}{msg}{Fore.RESET}")
-
 def log_err(msg: str):
     print(f"[pinpy]: {Fore.RED}{msg}{Fore.RESET}")
 

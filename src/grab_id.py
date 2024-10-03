@@ -28,7 +28,7 @@ def grab_board_id(url: str) -> str:
     board_id = loads(script.string)
 
     """ Returns the board id from the parsed json. """
-    log_out("grabbed board id!")
+    log_out(f"grabbed board id -> {next(iter(board_id['initialReduxState']['boards']))}")
     return next(iter(board_id["initialReduxState"]["boards"]))
 
 

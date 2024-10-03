@@ -52,7 +52,7 @@ def download(id: str):
                     log_out("saved image!")
             except Exception as e:
                 log_err(f"exception -> {e}")
-            sleep(1.1)
+            sleep(0.1)
     
         bookmark = req["resource_response"].get("bookmark")
         if bookmark is None:
