@@ -26,5 +26,12 @@ Table of Contents:
     This program helps with that.
 
 [0x00000001]:
-    How to use: python3 pinpy.py
-    Very simple.
+    Install the needed libraries with pip, they're in the 'requirements.txt' file.
+    pip -r requirements.txt
+
+    Then once they're installed, run the script with:
+    python3 src/pinpy.py.
+
+    The images should start downloading in the directory that you ran the script from.
+    In a future update, a GUI version will be released that will allow you to pick
+        what folder the images should be downloaded to.
